@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="-"
-            android:text="NOTE8"
+            android:text="@string/app_name"
             android:textSize="28dp"
             tools:fontFamily="@font/aclonica" />
     </LinearLayout>
@@ -42,7 +42,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="No note found"
+            android:text="No task found"
             android:textSize="28sp"
             android:id="@+id/no_data"
             android:textColor="@color/colorPrimary"
@@ -58,7 +58,7 @@
         android:textSize="24dp"
         android:id="@+id/add_note"
         android:background="#FA515F"
-        android:text="ADD NEW NOTE"
+        android:text="ADD NEW TASK"
         />
 
 

@@ -17,7 +17,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="NOTE8"
+            android:text="@string/app_name"
             android:layout_weight="1"
             android:textSize="28dp"
             tools:fontFamily="@font/aclonica" />
@@ -65,7 +65,7 @@
                 android:layout_height="match_parent"
                 android:id="@+id/note"
                 android:focusable="true"
-                android:hint="Note contents goes here"
+                android:hint="Task contents goes here"
                 android:textColor="@color/colorPrimary"
                 android:layout_weight="1"
                 android:gravity="top"
