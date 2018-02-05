@@ -11,6 +11,9 @@ import com.haikaroseworx.note7app.data_manager.NoteDatabaseHelper;
  * Created by hikaroseworx on 1/6/18.
  */
 
+/*
+* This class is for creating a note aka , the task creator//
+*/
 public class NoteCreator {
 
     public static void createNote( Context context,NoteItem noteItem){
