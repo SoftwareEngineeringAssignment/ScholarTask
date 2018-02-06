@@ -59,4 +59,10 @@ public class MainActivity extends AppCompatActivity {
             findViewById(R.id.no_data).setVisibility(View.VISIBLE);
         }
     }
+	public String myString(String name) {
+
+		name = "The note is for every student to use";
+		return name;
+	}
+
 }
