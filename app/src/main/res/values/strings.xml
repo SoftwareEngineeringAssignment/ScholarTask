@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">ScholarTask Mynote</string>
+<string name="add_note">AddNote Mynote</string>
+<string name="date">tarche Mynote</string>
+<string name="message">message Mynote</string>
+<string name="note_content">notes Mynote</string>
+<string name="save_title">save Mynote</string>
+<string name="cancel">cancel Mynote</string>
+<string name="save">save mynote</string>
+<string name="cancel_warn">cancel:NoteCreation Mynote</string>
+<string name="no">No Mynote</string>
+<string name="yes">Yes Mynote</string>
+<string name="app_name">ScholarTask Mynote</string>
+
+
 </resources>
