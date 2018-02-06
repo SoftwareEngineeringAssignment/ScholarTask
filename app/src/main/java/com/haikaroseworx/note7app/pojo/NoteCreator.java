@@ -18,6 +18,8 @@ public class NoteCreator {
         NoteDatabaseHelper databaseHelper = new NoteDatabaseHelper(context);
         SQLiteDatabase database = databaseHelper.getWritableDatabase();
 
+
+	//This include ways of inserting data into the database//
         ContentValues contentValues = new ContentValues();
         contentValues.put(NoteItem.TABLE_COLUMNS[1],noteItem.getDate());
         contentValues.put(NoteItem.TABLE_COLUMNS[2],noteItem.getTitle());

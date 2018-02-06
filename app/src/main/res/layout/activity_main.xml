@@ -11,9 +11,15 @@
         android:layout_width="match_parent"
         android:layout_height="78dp"
         android:paddingLeft="16dp"
+        android:orientation="horizontal"
         android:gravity="center|left"
         android:background="@color/colorPrimary"
         >
+        
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+                   android:background="@drawable/ifm"/>
 
         <TextView
             android:layout_width="wrap_content"
