@@ -3,6 +3,8 @@ package com.haikaroseworx.note7app.pojo;
 /**
  * Created by hikaroseworx on 1/9/18.
  */
+//this is for testing
+// This code is for testing
 
 public class PojoForTest {
 

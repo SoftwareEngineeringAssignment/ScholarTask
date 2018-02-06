@@ -9,6 +9,7 @@ import java.sql.SQLClientInfoException;
 
 /**
  * Created by hikaroseworx on 1/6/18.
+//this is for  removing an item
  */
 
 public class NoteDeleter {
