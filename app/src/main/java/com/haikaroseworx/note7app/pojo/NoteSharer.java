@@ -18,4 +18,22 @@ public class NoteSharer {
         intent.putExtra(EXTRA_TEXT,noteItem.getTitle()+" :: "+noteItem.getNote());
         context.startActivity(Intent.createChooser(intent,"Share note using"));
     }
+public void dosomething(){
+
+}
+
+public void code(){
+
+}
+
+public interface MyInterface {
+   default myDummyMethod() {
+      // nada
+   }
+}
+
+public void bar(int num1, int num2) {
+    //...
+}
+
 }

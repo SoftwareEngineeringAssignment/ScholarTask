@@ -56,12 +56,12 @@ public class NoteCreatorActivity extends AppCompatActivity {
                 AlertDialog.Builder alert = new AlertDialog.Builder(NoteCreatorActivity.this);
 
                 if (isUpdate) {
-                    alert.setTitle("Update note");
+                    alert.setTitle("note to be updated");
                 } else {
                     alert.setTitle("Save note?");
                 }
 
-                alert.setMessage("Are you sure you want to persist the changes to this note?");
+                alert.setMessage("Are you sure you want to save the changes to this note?");
 
                 alert.setPositiveButton("YES", new DialogInterface.OnClickListener() {
                     @Override
